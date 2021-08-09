@@ -9,6 +9,6 @@ const auth = require('./middleware/auth')
 
 app.use(express.json())
 
-app.use('/api',routes(Router))
+app.use('/api',routes(Router))   // routes the requests
 
 app.listen(3000)

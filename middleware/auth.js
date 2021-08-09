@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken')
 
+//function to verify the jwt token is valid or not
 const auth =  async(req,res,next) => {
 
     const authHeader= req.headers['authorization']
